@@ -1,3 +1,4 @@
+<?php
         include(APPPATH . "SupermarketAPI.php");
         
         $bombay_sapphire_1l = (object) array(
