@@ -1,5 +1,5 @@
 # SupermarketAPI
-Get the current price of an Item from Asda, Waitrose, Tesco and Morrisons
+Get the current price of an Item from *Asda*, *Waitrose*, *Tesco* and *Morrisons*
 
 #About
 SupermarketAPI was built out of frustration from trying compare prices and the big Supermarkets not having open APIs.
