@@ -31,8 +31,8 @@ The example below is an example of calling IDs for Bombay sapphire.
 #Result
 The example above will give the following results
 ```raw
-    Tesco - 22.00
-    ASDA - 20.00
-    Waitrose - 21.00
-    Morrisons - 22.00
+Tesco - 22.00
+ASDA - 20.00
+Waitrose - 21.00
+Morrisons - 22.00
 ```
