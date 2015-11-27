@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
 class SupermarketAPI {
 
     public $url = null;
@@ -12,7 +18,7 @@ class SupermarketAPI {
         $agent = "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)";
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_USERAGENT, $agent);
-        curl_setopt($ch, CURLOPT_HEADER, 1);
+       // curl_setopt($ch, CURLOPT_HEADER, 1);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
         $data = curl_exec($ch);
@@ -41,8 +47,8 @@ class Asda extends SupermarketAPI {
     }
 
     public function find_price() {
-        $data = json_decode($this->raw);
-        return $data->items[0]->price;
+        $data = json_decode($this->raw);        
+       return $data->items[0]->price;
     }
 
 }
